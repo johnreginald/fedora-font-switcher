@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Fedora Font Switcher
+Comment=Change Unicode and Zawgyi Keyboard and System Font
+Keywords=fonts;switcher;myanmar;unicode;zawgyi;pyidaungsu;change
+Icon=ffs
+Exec=ffs-ui %u
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;GNOME;Utility;

@@ -1,0 +1,40 @@
+#/bin/bash
+CONFIG=~/.config/fontconfig/fonts.conf
+CC () {
+case "$1" in
+
+z) echo "Change to Zawgyi"
+FONT="Zawgyi-One"
+KEY="zawgyi"
+    ;;
+u) echo "Change to Unicode"
+FONT="Myanmar3"
+KEY="mm"
+    ;;
+*) echo "Invalid option"
+	echo "z for zawgyi"
+	echo "u for unicode"
+   ;;
+esac
+}
+
+fontconfig () {
+if [[ $FONT ]]; then
+	if [ -f ~/.fonts.conf ]; then
+		rm ~/.fonts.conf
+		cp /usr/share/ffs/fonts.conf $CONFIG
+		echo ".fonts.conf is deprecated. Replaced new config in .config/fontconfig"
+	fi
+	if [ ! -f $CONFIG ]; then
+		mkdir -p ~/.config/fontconfig
+		cp /usr/share/ffs/fonts.conf $CONFIG
+		echo "Found no config. Created new."
+	fi
+	sed -i "s/Myanmar3/$FONT/g" $CONFIG
+	sed -i "s/Zawgyi-One/$FONT/g" $CONFIG
+	setxkbmap -model pc104 -layout $KEY,us -option grp:alt_shift_toggle
+fi
+}
+
+CC $1
+fontconfig
