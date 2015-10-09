@@ -8,6 +8,10 @@ Fedora Font Switcher
 
 Fedora OS ပေါ်တွင် Myanmar 3 Font နှင့် Zawgyi Font များကို သက်ဆိုင်ရာ Keyboards များနှင့် အတူတူ သုံးစွဲနိုင်ရန် Font Switcher ဖြစ်ပါသည်။ Unicode Font / Zawgyi-One Font၊ Unicode / Zawgyi Keyboard တို့ ပါဝင်ပြီး Myanmar Font များ အလွယ်တကူ ပြောင်းလဲ အသုံးပြုနိုင်ပါသည်။
 
+### Version Supported
+
+Fedora 20, 21, 22
+
 ### Installation and Setup
 
 #### Install from Source 
