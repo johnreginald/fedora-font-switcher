@@ -4,7 +4,7 @@ FFSC=$(zenity --list --radiolist --title="FFS Font and Keyboard Switcher" --text
 if [[ $FFSC == *"Zawgyi2009"* ]]
 then
 	ffs z
-	notify-send -u critical -t 500 Zawgyi Zawyi2009 -i zawgyi
+	notify-send -u critical -t 500 Zawgyi Smart-Zawgyi-Pro -i zawgyi
 
     else	
 	ffs u

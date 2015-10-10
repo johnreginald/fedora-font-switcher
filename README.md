@@ -111,4 +111,6 @@ RPM Packager - Yan Naing Myint [ Fedora Project - Myanmar Community ]
 
 Myanmar 3 Font & Keyboard - http://www.myanmarlanguage.org/article/download-unicode-fonts-and-keyboards
 
-Zawgyi-One Font & Keyboard - http://code.google.com/p/zawgyi-keyboard/
+Zawgyi-One Font - Kyaw Swar Thwin
+
+Zawgyi Keyboard - http://code.google.com/p/zawgyi-keyboard/

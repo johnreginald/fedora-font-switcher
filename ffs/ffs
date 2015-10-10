@@ -4,7 +4,7 @@ CC () {
 case "$1" in
 
 z) echo "Change to Zawgyi"
-FONT="Zawgyi-One"
+FONT="Smart Zawgyi Pro"
 KEY="zawgyi"
     ;;
 u) echo "Change to Unicode"
@@ -31,7 +31,7 @@ if [[ $FONT ]]; then
 		echo "Found no config. Created new."
 	fi
 	sed -i "s/Myanmar3/$FONT/g" $CONFIG
-	sed -i "s/Zawgyi-One/$FONT/g" $CONFIG
+	sed -i "s/Smart Zawgyi Pro/$FONT/g" $CONFIG
 	setxkbmap -model pc104 -layout $KEY,us -option grp:alt_shift_toggle
 fi
 }
