@@ -12,7 +12,7 @@ Desktop Environment : Mate, Gnome 3
 ### Introduction
 
 
-Fedora OS ပေါ်တွင် Myanmar 3 Font နှင့် Zawgyi Font များကို သက်ဆိုင်ရာ Keyboards များနှင့် အတူတူ သုံးစွဲနိုင်ရန် Font Switcher ဖြစ်ပါသည်။ Unicode Font / Smart Zawgyi Pro Font၊ Unicode / Zawgyi Keyboard တို့ ပါဝင်ပြီး Myanmar Font များ အလွယ်တကူ ပြောင်းလဲ အသုံးပြုနိုင်ပါသည်။
+Fedora OS ပေါ်တွင် Myanmar 3 Font နှင့် Zawgyi Font များကို သက်ဆိုင်ရာ Keyboards များနှင့် အတူတူ သုံးစွဲနိုင်ရန် Font Switcher ဖြစ်ပါသည်။ Unicode Font / Smart Zawgyi Pro Font ၊ Unicode / Zawgyi Keyboard တို့ ပါဝင်ပြီး Myanmar Font များ အလွယ်တကူ ပြောင်းလဲ အသုံးပြုနိုင်ပါသည်။
 
 ### Installation and Setup
 
@@ -46,7 +46,7 @@ Terminal တွင် အောက်ပါ Command ရိုက်ထည့်�
 ### Introduction
 
 
-Fedora OS ေပၚတြင္ Myanmar 3 Font ႏွင့္ Zawgyi Font မ်ားကို သက္ဆိုင္ရာ Keyboards မ်ားႏွင့္ အတူတူ သံုးစြဲႏိုင္ရန္ Font Switcher ျဖစ္ပါသည္။ Unicode Font / Smart Zawgyi Pro Font၊ Unicode / Zawgyi Keyboard တို႔ ပါ၀င္ၿပီး Myanmar Font မ်ား အလြယ္တကူ ေျပာင္းလဲ အသံုးျပဳႏိုင္ပါသည္။
+Fedora OS ေပၚတြင္ Myanmar 3 Font ႏွင့္ Zawgyi Font မ်ားကို သက္ဆိုင္ရာ Keyboards မ်ားႏွင့္ အတူတူ သံုးစြဲႏိုင္ရန္ Font Switcher ျဖစ္ပါသည္။ Unicode Font / Smart Zawgyi Pro Font ၊ Unicode / Zawgyi Keyboard တို႔ ပါ၀င္ၿပီး Myanmar Font မ်ား အလြယ္တကူ ေျပာင္းလဲ အသံုးျပဳႏိုင္ပါသည္။
 
 ### Installation and Setup
 
@@ -111,7 +111,7 @@ Repo Maintainer - [John Reginald](https://facebook.com/johnthelinux) [ Fedora Pr
 
 RPM Packager - [Yan Naing Myint](https://www.facebook.com/yannaingcw) [ Fedora Project - Myanmar Community ]
 
-Zawgyi-One Font - [Kyaw Swar Thwin](https://www.facebook.com/kyawswar.thwin.16)
+Smart Zawgyi Pro Font - [Kyaw Swar Thwin](https://www.facebook.com/kyawswar.thwin.16)
 
 Zawgyi Keyboard - http://code.google.com/p/zawgyi-keyboard/
 
