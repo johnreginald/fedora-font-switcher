@@ -19,11 +19,12 @@ Fedora OS ပေါ်တွင် Myanmar 3 Font နှင့် Zawgyi Font �
 #### Install from Source 
 Source မှ တဆင့် Install ပြုလုပ်ရန် အောက်ပါ Command များ Terminal တွင် ရိုက်ထည့်ပါ။
 
+	$ sudo dnf install git automake -y
 	$ git clone https://github.com/johnreginald/fedora-font-switcher.git
 	$ cd fedora-font-switcher
 	$ sudo make install
-	$ sudo ffs z
-	$ sudo ffs u
+	$ ffs z
+	$ ffs u
 
 
 #### Install from RPM Package
